@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive BOGO Offer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Here is the DEAL!!!</h1>
+
+    <!-- First Box -->
+    <div class="offer-box">
+      <input type="radio" name="offer" id="offer1">
+      <label for="offer1">
+        <div class="box-header">
+          <span>1 Unit</span>
+          <span class="discount">10% Off</span>
+        </div>
+        <div class="box-details">
+          <p>Standard Price</p>
+          <p>$10.00 USD</p>
+          <p><s>$24.00 USD</s></p>
+          <div class="options">
+            <label for="size1">Size:</label>
+            <select id="size1">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+
+            <label for="color1">Colour:</label>
+            <select id="color1">
+              <option>Black</option>
+              <option>Red</option>
+              <option>White</option>
+              
+            </select>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <!-- Second Box (Most Popular) -->
+    <div class="offer-box">
+      <input type="radio" name="offer" id="offer2">
+      <label for="offer2">
+        <div class="box-header">
+          <span>2 Unit</span>
+          <span class="discount popular">20% Off</span>
+        </div>
+        <div class="box-details">
+          <p>Most Popular</p>
+          <p>$18.00 USD</p>
+          <p><s>$24.00 USD</s></p>
+          <div class="options">
+            <label for="size1">Size:</label>
+            <select id="size1">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+
+            <label for="color1">Colour:</label>
+            <select id="color1">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <!-- Third Box -->
+    <div class="offer-box">
+      <input type="radio" name="offer" id="offer3">
+      <label for="offer3">
+        <div class="box-header">
+          <span>3 Unit</span>
+          <span class="discount">20% Off</span>
+        </div>
+        <div class="box-details">
+          <p>$24.00 USD</p>
+          <p><s>$36.00 USD</s></p>
+          <div class="options">
+            <label for="size1">Size:</label>
+            <select id="size1">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+
+            <label for="color1">Colour:</label>
+            <select id="color1">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+            
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <footer>
+      <p>Free Delivery</p>
+      <div class="total">
+        <!-- <p>Total: $18.00 USD</p> -->
+      </div>
+      <button class="add-to-cart">+ Add to Cart</button>
+      <p class="powered">© Powered by <strong>Md Zaid</strong></p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
